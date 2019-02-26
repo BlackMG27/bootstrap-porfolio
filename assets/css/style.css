@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700|Montserrat:300,500');
+
+html,
+body {
+  height: 100%;
+  font-size: 20px;
+  background-color: #ffebed;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%239C92AC' fill-opacity='0.21' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+header,
+footer {
+  background-color: #681526;
+  color: #ffebed;
+}
+
+.navbar-brand h2,
+.navbar-light .navbar-nav .nav-link {
+  color: #ffebed;
+  transition: .25s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffebed;
+  font-size: 24px;
+  transition: .25s;
+}
+
+
+#profile__img {
+  width: 25%;
+  float: left;
+  margin: 15px;
+}
+
+h1,
+h2 {
+  font-family: "Crimson Text", 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: #681526;
+}
+
+.main-site {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: #fff2f4;
+  padding: 20px;
+}
+
+.flex-shrink-0 {
+  flex: 1;
+}
+
+p,
+a,
+label,
+input,
+textarea {
+  font-size: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1.5px solid #681526;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  width: 250px;
+  height: 40px;
+  border: 1.5px solid #681526;
+  color: #681526;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: .25s;
+}
+
+button[type="submit"]:hover {
+  background-color: #681526;
+  color: #ffebed;
+  transition: .25s;
+}
+
+footer {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+}
+
+#portfolio__gallery img {
+  width: 100%;
+}
+
+figure {
+  transition: .25s;
+}
+
+figure:hover {
+  transition: .25s;
+  transform: scale(1.2);
+}
+
+.container {
+  max-width: 960px;
+}
+
+figure a figcaption {
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  top: 57%;
+  background-color: #681526;
+  width: 90%;
+  padding: 15px;
+  color: #ffebed;
+  opacity: .8;
+}
+
+@media screen and (max-width: 600px) {
+  .main-site {
+    height: 200%;
+  }
+
+  footer {
+    height: 120px;
+  }
+}
