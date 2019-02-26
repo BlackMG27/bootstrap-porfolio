@@ -1,2 +1,2 @@
-# bootstrap-porfolio
-this is the bootstrap version of the basic portfolio
+# bootstrap-portfolio
+this is the bootstrap version of the basic portfolio.
