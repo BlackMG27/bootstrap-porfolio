@@ -144,4 +144,8 @@ figure a figcaption {
   footer {
     height: 120px;
   }
+
+  #profile__img {
+    width: 50%;
+  }
 }
