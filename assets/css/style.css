@@ -17,15 +17,14 @@ footer {
 .navbar-brand h2,
 .navbar-light .navbar-nav .nav-link {
   color: #ffebed;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #ffebed;
   font-size: 24px;
-  transition: .25s;
+  transition: 0.25s;
 }
-
 
 #profile__img {
   width: 25%;
@@ -35,7 +34,7 @@ footer {
 
 h1,
 h2 {
-  font-family: "Crimson Text", 'Times New Roman', Times, serif;
+  font-family: 'Crimson Text', 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -78,20 +77,20 @@ textarea {
   height: 150px;
 }
 
-button[type="submit"] {
+button[type='submit'] {
   width: 250px;
   height: 40px;
   border: 1.5px solid #681526;
   color: #681526;
   border-radius: 8px;
   margin-top: 20px;
-  transition: .25s;
+  transition: 0.25s;
 }
 
-button[type="submit"]:hover {
+button[type='submit']:hover {
   background-color: #681526;
   color: #ffebed;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 footer {
@@ -107,18 +106,17 @@ footer {
 }
 
 figure {
-  transition: .25s;
+  transition: 0.25s;
 }
 
 figure:hover {
-  transition: .25s;
+  transition: 0.25s;
   transform: scale(1.2);
 }
 
 figcaption:hover {
   width: 100%;
 }
-
 
 .container {
   max-width: 960px;
@@ -133,7 +131,11 @@ figure a figcaption {
   width: 90%;
   padding: 15px;
   color: #ffebed;
-  opacity: .8;
+  opacity: 0.8;
+}
+
+figure a figcaption:hover {
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
