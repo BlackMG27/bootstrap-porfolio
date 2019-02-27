@@ -115,6 +115,11 @@ figure:hover {
   transform: scale(1.2);
 }
 
+figcaption:hover {
+  width: 100%;
+}
+
+
 .container {
   max-width: 960px;
 }
